@@ -4,7 +4,7 @@ Submitted by: **👉🏿 Xin Yi Li**
 
 About this web app: **👉🏿 display youtube creators**
 
-Time spent: **👉🏿 10** hours
+Time spent: **👉🏿 15** hours
 
 ## Required Features
 
@@ -34,20 +34,16 @@ Here's a walkthrough of implemented required features:
 
 👉🏿<img src='./creatorverse/prework103.gif' title='Video Walkthrough' width='800px' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  👉🏿 GIF tool here
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
 
+** I had to review what I learned in 102 and creating the CSS from scratch was very frustrating, so I used picocss. However, it only applied to some of the elemnents. I also had trouble with my props. In the end, I found that defining their type the way I did solved the problems I had but took a bit of research to do so. Right now, my CSS for some elements are wonky and I plan to fix it in the future.**
+
 ## License
 
-Copyright [👉🏿 yyyy] [👉🏿 name of copyright owner]
+Copyright [👉🏿 2023] [👉🏿 name of Xin Yi Li]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
