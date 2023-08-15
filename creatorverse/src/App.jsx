@@ -2,6 +2,7 @@ import { supabase } from './client';
 import { useState, useEffect } from 'react';
 import './App.css'
 import Creator from './components/Creator.jsx';
+import '@picocss/pico';
 
 function App() {
   // const [count, setCount] = useState(0)

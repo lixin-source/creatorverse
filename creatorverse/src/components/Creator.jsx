@@ -3,13 +3,23 @@ import { Link } from 'react-router-dom';
 
 const Creator = ({ creator }) => {
   return (
-    <div className="Creator">
-      <p className='name'>{creator.name}</p>
-      <img className="img" src={creator.imageURL} alt='creatorImage'/>
-      <Link to={`/detailView/${creator.id}`} key={creator.id} className='detailPg'>View</Link>
-      <a href={creator.url} target="_blank" rel="noopener noreferrer" className='url'> YouTube </a>
-      <p className='desc'> {creator.description}</p>
+    <div className="Creator" style={{ backgroundImage: `url(${creator.imageURL})` }}>
+  <div className="content">
+    <div className="top">
+      <div className="info">
+        <h3 className='name'>{creator.name}</h3>
+        <div className="btns">
+          <Link to={`/detailView/${creator.id}`} key={creator.id} className='viewBtn'>View</Link>
+          <a href={creator.url} target="_blank" rel="noopener noreferrer" className='url'>YouTube</a>
+        </div>
+      </div>
     </div>
+    <div className="bottom">
+      <p className='desc'>{creator.description}</p>
+    </div>
+  </div>
+</div>
+
   );
 };
 
